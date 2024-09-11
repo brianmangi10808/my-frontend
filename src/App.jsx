@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/users')
+    axios.get('https://my-backend-dzky.onrender.com/users')
       .then(response => {
         setUsers(response.data); // Set the user data
       })
