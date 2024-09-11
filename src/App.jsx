@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './App.css'
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -25,6 +26,7 @@ function App() {
   return (
     <div>
       <h1>Users List</h1>
+      <h2>SHARON FUCK YOU  !!!!!!</h2>
       {loading && <p>Loading...</p>} {/* Show loading indicator */}
       {error && !loading && <p>{error.message}</p>} {/* Show error message if not loading */}
       {!loading && !error && (
