@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <h1>Users List</h1>
-      <h2>SHARON FUCK YOU  !!!!!!</h2>
+      <h2>WELCOME   !!!!!!</h2>
       {loading && <p>Loading...</p>} {/* Show loading indicator */}
       {error && !loading && <p>{error.message}</p>} {/* Show error message if not loading */}
       {!loading && !error && (
